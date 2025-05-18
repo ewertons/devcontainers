@@ -81,13 +81,7 @@
             }
         }
     },
-    "mounts": [
-        {
-            "source": "dind-var-lib-docker-${devcontainerId}",
-            "target": "/var/lib/docker",
-            "type": "volume"
-        }
-    ],
+    "mounts": [],
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
